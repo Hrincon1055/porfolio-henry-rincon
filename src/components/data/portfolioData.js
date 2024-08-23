@@ -17,7 +17,7 @@
  */
 export const portafolioData = [
 	{
-		imgSrc: 'https://www.dongee.com/tutoriales/content/images/2023/11/image-87.png',
+		imgSrc: 'https://www.grupocibernos.com/hs-fs/hubfs/desarrollo%20de%20software%20a%20medida.jpg?width=960&name=desarrollo%20de%20software%20a%20medida.jpg',
 		title: 'GLOBALMVM',
 		skills: ['Angular 15', 'Java Spring 3', 'HTML', 'CSS', 'SASS'],
 		descripcion:
@@ -27,7 +27,7 @@ export const portafolioData = [
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: 'https://www.dongee.com/tutoriales/content/images/2023/11/image-87.png',
+		imgSrc: 'https://www.grupocibernos.com/hs-fs/hubfs/desarrollo%20de%20software%20a%20medida.jpg?width=960&name=desarrollo%20de%20software%20a%20medida.jpg',
 		title: 'ASESOFTWARE',
 		skills: [
 			'Angular 13',
@@ -45,7 +45,7 @@ export const portafolioData = [
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: 'https://www.dongee.com/tutoriales/content/images/2023/11/image-87.png',
+		imgSrc: 'https://www.grupocibernos.com/hs-fs/hubfs/desarrollo%20de%20software%20a%20medida.jpg?width=960&name=desarrollo%20de%20software%20a%20medida.jpg',
 		title: 'VASSLATAM',
 		skills: [
 			'React 16',
