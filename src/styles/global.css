@@ -1,0 +1,106 @@
+:root {
+	/* color */
+	--primary-0: #002925;
+	--primary-10: #004c4a;
+	--primary-20: #007571;
+	--primary-30: #009b93;
+	--primary-40: #12b6ad;
+	--primary-50: #30cec3;
+	--primary-60: #40dbb8; /* Color primario actualizado */
+	--primary-70: #66e5d4;
+	--primary-80: #b3f1eb;
+	--primary-90: #d8f9f5;
+	--primary-95: #eafcfb;
+	--primary-99: #f4fefe;
+	--primary-100: #ffffff;
+
+	--secondary-0: #08141c; /* Ajuste para un buen contraste */
+	--secondary-10: #1c2e39;
+	--secondary-20: #2f4d5b;
+	--secondary-30: #40737e;
+	--secondary-40: #508a94;
+	--secondary-50: #61a1ab;
+	--secondary-60: #7ab9c4;
+	--secondary-70: #9cd6de;
+	--secondary-80: #c5e9ec;
+	--secondary-90: #e3f4f6;
+	--secondary-95: #f0fafd;
+	--secondary-99: #f7fefe;
+	--secondary-100: #ffffff;
+
+	/* colores de las propiedades */
+	--surface: #3c4d53; /* Ajuste para mayor armonía */
+	--surface-variant: #e0eff1; /* Ajuste para suavizar */
+	--surface-dim: #667f83; /* Ajuste para contraste */
+	--surface-bridge: #b1cbd0; /* Ajuste para suavizar */
+
+	--primary: var(--primary-60);
+	--on-surface-primary: var(--primary-10);
+	--on-primary: var(--primary-95);
+
+	--secondary: var(--secondary-70);
+	--on-surface-secondary: var(--secondary-95);
+	--on-secondary: var(--secondary-95);
+
+	/* texto */
+	--text-small: 1.2rem;
+	--text-medium: 1.4rem;
+	--text-large: 1.6rem;
+	--text-x-large: 2rem;
+	--text-xx-large: 3.1rem;
+	--text-xxx-large: 4.4rem;
+	--text-title: 2rem;
+	--text-general: 1.6rem;
+	--text-button: 1.2rem;
+	--font-montserrat: 'Montserrat', sans-serif;
+	--max-width: 108rem;
+	--site-bg: var(--primary-0);
+	--hero-bg: linear-gradient(
+		-54deg,
+		var(--primary-0) -23%,
+		var(--primary-20),
+		var(--primary-0) 51%
+	);
+
+	--text-gradient: radial-gradient(
+		circle farthest-corner at center center,
+		#58f9ff 0%,
+		#40dbb8 100% /* Ajuste para mantener el color primario */
+	);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: var(--font-montserrat) !important;
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	width: 100%;
+	background: var(--site-bg) no-repeat;
+	background: var(--site-bg) no-repeat;
+}
+
+main {
+	align-self: center;
+}
+
+p {
+	color: var(--primary-100);
+	font-size: var(--text-general);
+}
+
+.color__gradiente {
+	background: var(--text-gradient);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.max__width {
+	max-width: 117.8rem;
+}
